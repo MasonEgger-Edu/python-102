@@ -33,7 +33,7 @@ No formal external standards. The course aligns with:
 
 - Python Software Foundation Code of Conduct (community delivery context)
 - PyCon tutorial format (3-hour or 3.5-hour slot, hands-on)
-- Python 3.14 syntax and standard library
+- Python 3.12+ syntax and standard library
 
 ## Course Style — Pedagogical Patterns
 
@@ -69,7 +69,7 @@ Five competencies, mapping 1:1 to the five course modules.
 
 #### Performance Assessment
 
-**Condition:** Open `Exercises/Practice/01-First-Class-Functions-Exercises.ipynb` in Google Colab or Jupyter using Python 3.14. Slide deck and Content notebook are open-book. Time-boxed to 10 minutes in the live workshop; untimed for self-paced learners.
+**Condition:** Open `Exercises/Practice/01-First-Class-Functions-Exercises.ipynb` in Google Colab or Jupyter using Python 3.12+. Slide deck and Content notebook are open-book. Time-boxed to 10 minutes in the live workshop; untimed for self-paced learners.
 
 **Criteria — performance will be successful when:**
 
@@ -108,7 +108,7 @@ Five competencies, mapping 1:1 to the five course modules.
 
 #### Performance Assessment
 
-**Condition:** Open `Exercises/Practice/02-Decorators-and-Closures.ipynb` using Python 3.14. Open-book. Live time-box: 10 minutes; untimed for self-paced.
+**Condition:** Open `Exercises/Practice/02-Decorators-and-Closures.ipynb` using Python 3.12+. Open-book. Live time-box: 10 minutes; untimed for self-paced.
 
 **Criteria:**
 
@@ -146,7 +146,7 @@ Five competencies, mapping 1:1 to the five course modules.
 
 #### Performance Assessment
 
-**Condition:** Open `Exercises/Practice/03-Comprehensions.ipynb` using Python 3.14. Open-book. Live time-box: 10 minutes; untimed for self-paced.
+**Condition:** Open `Exercises/Practice/03-Comprehensions.ipynb` using Python 3.12+. Open-book. Live time-box: 10 minutes; untimed for self-paced.
 
 **Criteria:**
 
@@ -182,7 +182,7 @@ Five competencies, mapping 1:1 to the five course modules.
 
 #### Performance Assessment
 
-**Condition:** Open `Exercises/Practice/04-Special-Methods-and-Operator-Overloading.ipynb` using Python 3.14. Open-book. Live time-box: 15 minutes; untimed for self-paced.
+**Condition:** Open `Exercises/Practice/04-Special-Methods-and-Operator-Overloading.ipynb` using Python 3.12+. Open-book. Live time-box: 15 minutes; untimed for self-paced.
 
 **Criteria:**
 
@@ -223,7 +223,7 @@ Five competencies, mapping 1:1 to the five course modules.
 
 #### Performance Assessment
 
-**Condition:** Open `Exercises/Practice/05-Context-Managers.ipynb` using Python 3.14. Open-book. Live time-box: 15 minutes; untimed for self-paced.
+**Condition:** Open `Exercises/Practice/05-Context-Managers.ipynb` using Python 3.12+. Open-book. Live time-box: 15 minutes; untimed for self-paced.
 
 **Criteria:**
 
