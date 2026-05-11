@@ -252,16 +252,16 @@ The course is delivered as a single ~3.5-hour session with five modules plus int
 
 ### Pacing Principle — Break Cadence
 
-**Guideline (suggestion, not law):** schedule a break — at minimum a 2–3 minute stretch break — at most every **50 minutes** of instruction. Within each module, additional attention shifts (worked examples, summary stacks, exercises) should occur every 15–20 minutes to reset focus.
+**Guideline (suggestion, not law):** schedule a break: at minimum a 2–3 minute stretch break, at most every **50 minutes** of instruction. Within each module, additional attention shifts (worked examples, summary stacks, exercises) should occur every 15–20 minutes to reset focus.
 
 **Why 50 minutes?**
 
-- Bligh, *What's the Use of Lectures?* (2000) — empirical attention drops sharply after the first 10–20 minutes of sustained lecture-style content; periodic activity changes restore engagement.
-- Hartley & Davies, "Note Taking: A Critical Review" (1978) — the often-cited "10-minute rule" generalization; while later researchers (Wilson & Korn, 2007) qualified this as more variable than fixed, the underlying signal — attention waxes and wanes within a long block — holds up.
-- Bunce, Flens & Neiles, "How Long Can Students Pay Attention in Class?" (2010) — clicker-based study found attention lapses cluster predictably and can be reset by demonstrations, questions, or activity changes.
-- Sousa, *How the Brain Learns* (2011) — adult primetime intervals run roughly 20 minutes; learning peaks at the start and end of each segment, sags in the middle.
+- Bligh, *What's the Use of Lectures?* (2000): empirical attention drops sharply after the first 10–20 minutes of sustained lecture-style content; periodic activity changes restore engagement.
+- Hartley & Davies, "Note Taking: A Critical Review" (1978): the often-cited "10-minute rule" generalization; while later researchers (Wilson & Korn, 2007) qualified this as more variable than fixed, the underlying signal (attention waxes and wanes within a long block) holds up.
+- Bunce, Flens & Neiles, "How Long Can Students Pay Attention in Class?" (2010): clicker-based study found attention lapses cluster predictably and can be reset by demonstrations, questions, or activity changes.
+- Sousa, *How the Brain Learns* (2011): adult primetime intervals run roughly 20 minutes; learning peaks at the start and end of each segment, sags in the middle.
 
-**Two kinds of break:** a *cognitive* break (change of activity — exercise, demo, question) resets attention. A *physical* break (≥3 min stretch / restroom / coffee) lets working memory consolidate. Both matter; the workshop is dense with cognitive breaks already (every module has multiple worked examples plus an exercise), so the pacing principle here is mainly about *physical* break cadence.
+**Two kinds of break:** a *cognitive* break (change of activity: exercise, demo, question) resets attention. A *physical* break (≥3 min stretch / restroom / coffee) lets working memory consolidate. Both matter; the workshop is dense with cognitive breaks already (every module has multiple worked examples plus an exercise), so the pacing principle here is mainly about *physical* break cadence.
 
 **Venue and event constraints can override.** Conference slots are fixed length, room turnover may be enforced, and crowds may need longer breaks for restrooms. Treat the schedule below as a default; reshape it for the venue.
 
@@ -295,7 +295,7 @@ flowchart LR
 | Module 5 — Context Managers (teach + ex)         | 45 min |                      45 min |
 | Wrap-up                                          | 10 min |                      55 min |
 
-Total: ~261 min (~4h 21min) at the canonical pace. The 3.5-hour conference slot requires compression — see "Adjustments for the 3.5-hour conference slot" below.
+Total: ~261 min (~4h 21min) at the canonical pace. The 3.5-hour conference slot requires compression. See "Adjustments for the 3.5-hour conference slot" below.
 
 ### Module summaries
 
@@ -317,7 +317,7 @@ Total: ~261 min (~4h 21min) at the canonical pace. The 3.5-hour conference slot 
 
 PyCon and PyTexas tutorial slots are fixed at ~3.5 hours, which is 30–45 min shorter than the canonical pace allows. Two delivery shapes have been used:
 
-- **As-delivered (PyTexas 2024 / PyCon US 2026):** drop the two stretch breaks and tighten transitions. Two physical breaks (after Module 2, after Module 4). Trade-off: 100 min of teaching before the first break — over the 50-minute guideline. Mitigated in practice by frequent within-module attention shifts (worked examples, exercises). Total ~3h 35min.
+- **As-delivered (PyTexas 2024 / PyCon US 2026):** drop the two stretch breaks and tighten transitions. Two physical breaks (after Module 2, after Module 4). Trade-off: 100 min of teaching before the first break, over the 50-minute guideline. Mitigated in practice by frequent within-module attention shifts (worked examples, exercises). Total ~3h 35min.
 - **Principle-compliant (longer venue):** the canonical schedule above with both stretch breaks. Use when the venue allows ~4 hours, when the audience skews tired (e.g., post-lunch tutorial), or when accessibility needs require additional movement opportunities.
 
 When the slot is tighter than 3.5 hours, the right cuts are: drop Module 4's `__call__` deep-dive (activities 4.5) or the parameterized-decorator activity (2.10). Both are nice-to-haves, not core to the competency.

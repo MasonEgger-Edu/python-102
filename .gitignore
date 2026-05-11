@@ -1,1 +1,6 @@
 commit-msg.md
+Content/*.md
+Exercises/Practice/*.txt
+Exercises/Practice/*.md
+Exercises/Solution/*.txt
+Exercises/Solution/*.md
