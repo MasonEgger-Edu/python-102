@@ -74,6 +74,36 @@ with a colon, comma, period, or parentheses depending on context.
 Em-dashes are allowed in table cells, headings, structural labels like
 `**Module N — Topic.**`, and "label — value" bullet patterns.
 
+**No forward references.** Every section should stand on its own. Don't
+write "as we'll see later", "this is the foundation of decorators in the
+next module", or similar pointers to upcoming material. If a concept
+genuinely depends on something earlier, restate or link backward — but
+forward pointers are a no-go. Applies to both notebook cells and slide
+chapters.
+
+## Slide-side deviations and sync-back
+
+The Slidev deck in
+`../../MasonEgger/presentations/workshops/writing-pythonic-code/` is
+mostly a 1:1 reflection of the notebooks, but the deck occasionally
+diverges on purpose — images instead of tables for projector legibility,
+bullets instead of paragraphs for slide density, narrative prompts that
+only make sense when spoken aloud. Each intentional divergence is
+annotated in the slide chapter with an inline HTML comment:
+
+```md
+<!-- slide-only: image reads better on a projector than the notebook's table -->
+```
+
+When you re-run the notebook→slide sync, **don't clobber anything that
+sits directly below a `<!-- slide-only -->` marker** even if the
+notebook prose differs.
+
+The reverse list — places where the slide is ahead of the notebook and
+the notebook should catch up — lives in `prune.md` in this repo, under
+the "Sync-back edits" section. Work that list before the next sync and
+the markers will go away naturally.
+
 ## Common tasks
 
 ### Convert a notebook to markdown (for slide sync)
