@@ -1,6 +1,11 @@
 commit-msg.md
 Content/*.md
+Content/*.txt
 Exercises/Practice/*.txt
 Exercises/Practice/*.md
 Exercises/Solution/*.txt
 Exercises/Solution/*.md
+
+# Notebook-generated artifacts that land at repo root when Jupyter cwd is the top of the tree
+/file.txt
+/pokemon_theme.txt
